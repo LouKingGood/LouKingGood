@@ -6,7 +6,7 @@
         <extension point="xbmc.addon.repository" name="LouKingGood Repo">
             <info compressed="false">https://github.com/LouKingGood/LouKingGood.xbmc/raw/master/_repo/addons.xml</info>
             <checksum>https://github.com/LouKingGood/LouKingGood.xbmc/raw/master/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/LouKingGood/LouKingGood.xbmc/raw/master/_repo/</datadir>
+            <datadir zip="true">https://github.com/LouKingGood/LouKingGood.xbmc/raw/master/_repo</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
