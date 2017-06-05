@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="50001">Message</string>
+    <string id="50002">Information</string>
+    <string id="50100">Settings</string>
+    <string id="50101">Episodes Per Page</string>
+    <string id="50103">List subscribed shows first</string>
+    <string id="50104">Show unsubscribed shows in [I]Italics[/I]</string>
+    <string id="50105">Show thumbnails in subscribed shows</string>
+    <string id="50106">Announcement</string>
+    <string id="50107">Display TFC.tv's website sections</string>
+    <string id="50108">Display most loved shows</string>
+    <string id="50109">Display Live TV Channels</string>
+    <string id="50110">Advanced</string>
+    <string id="50111">Activate cache</string>    
+    <string id="50112">Display Tools</string>
+    <string id="50113">Display Celebrities</string>
+    <string id="50114">Display My Account</string>
+    <string id="50115">Menu display settings</string>
+    <string id="50200">TFC.tv Account</string>
+    <string id="50201">Email Address</string>
+    <string id="50202">Password</string>
+    <string id="50202">Password</string>
+    <string id="50203">Login Retries</string>
+    <string id="50204">Login Failed</string>
+    <string id="50205">Can't login to TFC website</string>
+    <string id="50206">[Preview] %s</string>
+    <string id="50207">You are only allowed to watch a preview</string>
+    <string id="56001">TFC.tv My Account Information</string>
+    <string id="56002">TFC.tv My Subscriptions</string>
+    <string id="56003">TFC.tv My Transactions</string>
+    
+    <string id="57000">Media Error</string>
+    <string id="57001">Subscription is already expired or the item is not part of your subscription</string>
+    <string id="57002">No available information</string>
+    <string id="57003">Catalog cache loaded successfully</string>
+    <string id="57004">Cookies data has successfully been deleted</string>
+    <string id="57005">Can't delete cookies data file</string>
+    <string id="57006">Can't find cookies data file</string>
+    
+</strings>
+
