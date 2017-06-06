@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons> 
-    <addon id="plugin.video.kapamilya" name="TFC" version="0.0.57" provider-name="LouKingGood">
+    <addon id="plugin.video.kapamilya" name="TFC" version="0.0.57" provider-name="loukinggood">
         <requires>
             <import addon="xbmc.python" version="2.1.0"/>
             <import addon="script.module.parsedom" version="0.9.1"/>
