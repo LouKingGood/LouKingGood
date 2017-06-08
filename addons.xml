@@ -12,11 +12,6 @@
     <summary>Mag TFC Pag May Time</summary>
     <description>No Warranty Here</description>
   </extension>
-  <extension name="LouKingGood Repo" point="xbmc.addon.repository">
-      <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
-      <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
-      <datadir zip="true">http://github.com/LouKingGood/LouKingGood/raw/master/</datadir>
-  </extension>
 </addon><addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.1">
     <extension name="LouKingGood Repo" point="xbmc.addon.repository">
         <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
