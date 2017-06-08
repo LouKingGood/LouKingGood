@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.kapamilya" name="TFC" version="0.0.58" provider-name="LouKingGood">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.parsedom" version="0.9.1"/>
+        <import addon="script.common.plugin.cache" version="2.5.5"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kapamilya Shows</summary>
+    <description lang="en">Mag TFC Pag May Time</description>
+    <disclaimer lang="en">No warranty here</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <licence>GNU</licence>
+  </extension>
+</addon>
