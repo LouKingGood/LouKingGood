@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.video.kapamilya" name="TFC" version="0.1.4" provider-name="LouKingGood">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.parsedom" version="0.9.1"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Kapamilya Shows</summary>
+    <description>No Warranty</description>
+  </extension>
+</addon><addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.1">
+    <extension name="LouKingGood Repo" point="xbmc.addon.repository">
+        <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
+        <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://github.com/LouKingGood/LouKingGood/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>All The Cool Addons</summary>
+        <description>Awesomeness Executed</description>
+        <disclaimer>No warranty here</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+    </extension>
+</addon></addons>
