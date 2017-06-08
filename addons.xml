@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="plugin.video.kapamilya" name="TFC" provider-name="LouKingGood" version="0.1.3">
+<addons><addon id="plugin.video.kapamilya" name="TFC" provider-name="LouKingGood" version="0.1.4">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.parsedom" version="0.9.1" />
@@ -8,9 +8,9 @@
         <provides>video</provides>
     </extension>
   <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>TFC.tv</summary>
-    <description>Yun lang</description>
+    <platform>Kapamilya Shows</platform>
+    <summary>Mag TFC Pag May Time</summary>
+    <description>No Warranty Here</description>
   </extension>
   <extension name="LouKingGood Repo" point="xbmc.addon.repository">
       <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
@@ -25,7 +25,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>All The Cool Addons</summary>
-        <description>Mag TFC Pag May Time</description>
+        <description>Awesomeness Executed</description>
         <disclaimer>No warranty here</disclaimer>
         <language>en</language>
         <platform>all</platform>
