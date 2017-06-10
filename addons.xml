@@ -49,7 +49,24 @@
     <description>Watch Viki.com Videos</description>
     <platform>all</platform>
   </extension>
-</addon><addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.1">
+</addon><addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.7.4" provider-name="MetalKettle">
+	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">https://offshoregit.com/metalkettle/addons.xml</info>
+		<checksum>https://offshoregit.com/metalkettle/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/metalkettle/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install my Addons</summary>
+		<description>Download and install addons from MetalKettle</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.1">
     <extension name="LouKingGood Repo" point="xbmc.addon.repository">
         <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
         <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
