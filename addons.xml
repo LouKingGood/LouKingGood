@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons><addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.2">
+<addons><addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.3">
     <extension name="LouKingGood Repo" point="xbmc.addon.repository">
         <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
         <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
