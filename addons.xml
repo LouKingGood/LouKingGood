@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addons>
-<addon id="plugin.video.kapamilya" name="TFC" version="0.0.63" provider-name="LouKingGood">
+<addons><addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.2">
+    <extension name="LouKingGood Repo" point="xbmc.addon.repository">
+        <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
+        <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">http://github.com/LouKingGood/LouKingGood/raw/master/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>All The Cool Addons</summary>
+        <description>Awesomeness Executed</description>
+        <disclaimer>No warranty here</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+    </extension>
+</addon><addon id="plugin.video.kapamilya" name="TFC" version="0.0.63" provider-name="LouKingGood">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.parsedom" version="0.9.1"/>
@@ -47,35 +59,6 @@
     <description lang="en"></description>
     <platform>all</platform>
   </extension>
-</addon>
-<addon id="repository.LouKingGood" name="LouKingGood Repo" provider-name="LouKingGood" version="0.0.2">
-    <extension name="LouKingGood Repo" point="xbmc.addon.repository">
-        <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
-        <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://github.com/LouKingGood/LouKingGood/raw/master/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>All The Cool Addons</summary>
-        <description>Awesomeness Executed</description>
-        <disclaimer>No warranty here</disclaimer>
-        <language>en</language>
-        <platform>all</platform>
-    </extension>
-</addon><addon id="repository.nitrotv" name="Nitro TV Repo" version="1.8" provider-name="Nitro TV">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="NITRO TV Repo">
-            <info compressed="false">http://touchtonebuilds.com/repo/_repo/addons.xml</info>
-            <checksum>http://touchtonebuilds.com/repo/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">http://touchtonebuilds.com/repo/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>NITRO TV Addons</summary>
-            <description>NITRO TV Addons</description>
-            <platform>all</platform>
-    </extension>
 </addon><addon id="repository.mathsgrinds" name="mathsgrinds" version="1.0.0" provider-name="mathsgrinds">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
@@ -111,21 +94,4 @@
     <description>Watch Viki.com Videos</description>
     <platform>all</platform>
   </extension>
-</addon>
-<addon id="repository.metalkettle" name="MetalKettles Addon Repository" version="1.7.4" provider-name="MetalKettle">
-	<extension point="xbmc.addon.repository" name="MetalKettles Addon Repository">
-	<dir>
-		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-	</dir>
-		<info compressed="false">https://offshoregit.com/metalkettle/addons.xml</info>
-		<checksum>https://offshoregit.com/metalkettle/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/metalkettle/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Install my Addons</summary>
-		<description>Download and install addons from MetalKettle</description>
-		<platform>all</platform>
-	</extension>
 </addon></addons>
