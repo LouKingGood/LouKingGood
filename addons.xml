@@ -86,6 +86,21 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
 		<description>Download and install all unofficial Add-ons from Goliath</description>
 		<platform>all</platform>
 	</extension>
+</addon><addon id="plugin.video.crunchyroller"  name="Crunchyroller" provider-name="LouKingGood="2.2.1">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Watch videos from Crunchyroll.com!</summary>
+		<description lang="en">Crunchyroll is an online video service and community that offers full-length episodes and movies of the very best in Japanese anime and Asian entertainment.</description>
+		<disclaimer lang="en">WARNING: You MUST be a PREMIUM member to use this Plugin</disclaimer>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<website>http://www.crunchyroll.com/</website>
+	</extension>
 </addon><addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
