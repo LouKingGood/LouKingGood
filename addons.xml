@@ -1,10 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <addons><addon id="repository.LouKingGood" name="LouKingGood" provider-name="LouKingGood" version="0.0.4">
-    <extension name="LouKingGood Repo" point="xbmc.addon.repository">
-        <info compressed="false">http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml</info>
-        <checksum>http://github.com/LouKingGood/LouKingGood/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">http://github.com/LouKingGood/LouKingGood/raw/master/</datadir>
-    </extension>
+    <extension name="LouKingGood Repo" point="xbmc.addon.repository"></extension>
     <extension point="xbmc.addon.metadata">
         <summary>All The Cool Addons</summary>
         <description>Awesomeness Executed</description>
@@ -12,14 +8,7 @@
         <language>en</language>
         <platform>all</platform>
     </extension>
-</addon><addon id="repository.exodus" name="Exodus repository" version="4.0.0" provider-name="Exodus">
-	<extension point="xbmc.addon.repository" name="Exodus repository"></extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Exodus repository</summary>
-		<description lang="en">Exodus repository</description>
-		<platform>all</platform>
-	</extension>
-</addon><addon id="plugin.video.kapamilya" name="TFC" version="0.0.67" provider-name="LouKingGood">
+</addon><addon id="plugin.video.kapamilya" name="TFC" version="0.0.68" provider-name="LouKingGood">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.parsedom" version="0.9.1"/>
@@ -72,27 +61,6 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
         <description>Download and Install Addons From MALCHUS TV..For Official Support Visit malchustvbuilds on facebook TWITTER@malchus tv</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="repository.Goliath" name="Goliaths Add-ons repository" version="1.4" provider-name="Goliath">
-	<extension point="xbmc.addon.repository" name="Goliaths Repository">
-	<dir>
-        <info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
-        <checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
-	</dir>
-	<dir>
-		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-	</dir>
-		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Home of Goliaths Addons</summary>
-		<description>Download and install all unofficial Add-ons from Goliath</description>
-		<platform>all</platform>
-	</extension>
 </addon><addon id="plugin.video.crunchyroller"  name="Crunchyroller" provider-name="LouKingGood" version="2.2.1">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -121,21 +89,6 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
     <description lang="en"></description>
     <platform>all</platform>
   </extension>
-</addon><addon id="repository.mathsgrinds" name="mathsgrinds" version="1.0.0" provider-name="mathsgrinds">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="mathsgrinds">
-            <info compressed="false">https://www.mathsgrinds.ie/_repo/addons.xml</info>
-            <checksum>https://www.mathsgrinds.ie/_repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://www.mathsgrinds.ie/_repo/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>mathsgrinds' Kodi Add-on Repository</summary>
-            <description>mathsgrinds' Kodi Add-on Repository. Please visit https://github.com/mathsgrinds/ for assistance with this repository.</description>
-            <platform>all</platform>
-    </extension>
 </addon><addon
   id="plugin.video.viki"
   version="1.1.44"
