@@ -62,25 +62,12 @@
   	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-  	<summary lang="bg">VIKI.COM Глобална ТВ за фенове</summary>
   	<summary lang="en">VIKI.COM GLOBAL TV POWERED BY FANS</summary>
-  	<description lang="bg">Във VIKI.COM гледайте най-добрите световни телевизионни предавания, филми, развлекателни новини и друго съдържание във високо качество, достъпно на повече от 150 езика в една общност от запалени фенове. Заедно, ние сме за премахването на бариерите, които стоят между голямото забавление и неговите фенове, без значение къде са те!</description>
-  	<description lang="en">In VIKI.COM watch the best global TV shows, movies, entertainment news and other premium content in high quality, translated into more than 150 languages by a community of avid fans. Together, we’re breaking down barriers that stand between great entertainment and its fans, no matter where they are!</description>
-  	<disclaimer lang="bg">Rakuten.</disclaimer>
+  	<description lang="en">VIKI.COM</description>
   	<disclaimer lang="en">This is not an official addon! If the official APP is available for your platform,
 use it instead of this addon. All rights on content are reserved by Rakuten.</disclaimer>
   	<language>en</language>
   	<platform>all</platform>
-  	<forum>https://kodibg.org/forum/thread-209.html</forum>
-  	<website>https://www.viki.com</website>
-  	<news>Fixed: MPEG-DASH playing; Feature Update: 1080p streams can be played without inputstream.adaptive; Update: Internal optimisations. MPEG-DASH and HLS-M3U8 quality profiles are recomended; SD 360p quality is now by default. VIKI® addon replace the quality of video streams when needed! Fan channels and most old movies/tv shows are not playable in debug mode!</news>
-	<assets>
-	   <icon>resources/icon.png</icon>
-       <fanart>resources/fanart.jpg</fanart>
-       <screenshot>resources/screenshot-01.jpg</screenshot>
-       <screenshot>resources/screenshot-02.jpg</screenshot>
-       <screenshot>resources/screenshot-03.jpg</screenshot>
-	</assets>
   </extension>
 </addon><addon id="repository.malchustv" name="Malchus Tv Repository" version="1.0.0" provider-name="MALCHUS TV">
     <extension point="xbmc.addon.repository" name="Malchus Tv Repository">
@@ -119,26 +106,6 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
   <extension point="xbmc.addon.metadata">
     <summary lang="en"></summary>
     <description lang="en"></description>
-    <platform>all</platform>
-  </extension>
-</addon><addon
-  id="plugin.video.viki"
-  version="1.1.44"
-  name="Viki"
-  provider-name="Dknight">
-  <requires>
-		<import addon="script.module.beautifulsoup" version="3.0.8"/>
-		<import addon="script.module.simplejson" />
-		<import addon="script.module.urlresolver"  version="0.0.1"/>
-		<import addon="script.module.t0mm0.common" version="1.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Viki.com</summary>
-    <description>Watch Viki.com Videos</description>
     <platform>all</platform>
   </extension>
 </addon></addons>
