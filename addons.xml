@@ -98,9 +98,10 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
         <description>Download and Install Addons From MALCHUS TV..For Official Support Visit malchustvbuilds on facebook TWITTER@malchus tv</description>
         <platform>all</platform>
     </extension>
-</addon><addon id="plugin.video.crunchyroller"  name="Crunchyroller" provider-name="LouKingGood" version="2.2.1">
+</addon><addon id="plugin.video.crunchyroller"  name="Crunchyroll" provider-name="LouKingGood" version="3.0.0">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.inputstreamhelper" version="0.3.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
