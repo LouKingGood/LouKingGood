@@ -117,17 +117,6 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
         <disclaimer lang="de_DE">HINWEIS: Du MUSST PREMIUM Mitglied sein um dieses Plugin zu benutzen</disclaimer>
         <news>v3.0.0 (2018.02.xx)[CR]- Addon rewriten from scratch</news>
         <license>GNU Affero General Public License, v3</license>
-        <forum></forum>
-        <website>http://www.crunchyroll.com/</website>
-        <source>https://github.com/MrKrabat/plugin.video.crunchyroll</source>
-        <email></email>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-            <screenshot>resources/media/screenshot-01.jpg</screenshot>
-            <screenshot>resources/media/screenshot-02.jpg</screenshot>
-            <screenshot>resources/media/screenshot-03.jpg</screenshot>
-        </assets>
     </extension>
 </addon><addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
   <requires>
