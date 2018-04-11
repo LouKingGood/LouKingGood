@@ -17,34 +17,7 @@
 		<language>en</language>
 		<platform>all</platform>
 		</extension>
-</addon><addon id="repository.kodil" name=".[COLOR blue]www.Kodisrael.co.il [/COLOR][COLOR white] Repository [/COLOR]" version="1.0.1" provider-name="kodil">
-    <extension point="xbmc.addon.repository" name="www.Kodisrael.co.il Repository ">
-        <info compressed="false">https://raw.githubusercontent.com/kodil/kodil/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/kodil/kodil/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/kodil/kodil/master/repo</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>www.kodisrael.co.il repository</summary>
-        <description>www.kodisrael.co.il offical repository </description>
-        <platform>all</platform>
-    </extension>
-</addon><addon id="plugin.video.pinoyteleserye" name="PINOY TELESERYE" version="1.3.2" provider-name="MALCHUS TV">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="2.10.12"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-	<summary lang="en">TELESERYE REPLAYS AND PINOY MOVIES</summary>
-	<description lang="en">TELESERYE REPLAYS AND PINOY MOVIES BY MALCHUS TV SPECIAL THANKS TO DANDYMEDIA FOR THE HELP AND SUPPORT</description>
-	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
-	<platform>all</platform>
-  </extension>
-</addon><addon id="plugin.video.kapamilya" name="TFC" version="0.0.71" provider-name="LouKingGood">
+</addon><addon id="plugin.video.kapamilya" name="TFC" version="0.0.73" provider-name="LouKingGood">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.parsedom" version="0.9.1"/>
@@ -87,17 +60,6 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
   	<language>en</language>
   	<platform>all</platform>
   </extension>
-</addon><addon id="repository.malchustv" name="Malchus Tv Repository" version="1.0.0" provider-name="MALCHUS TV">
-    <extension point="xbmc.addon.repository" name="Malchus Tv Repository">
-        <info compressed="false">http://www.malchustv.pinoykodigroup.site/_repo/addons.xml</info>
-        <checksum>http://www.malchustv.pinoykodigroup.site/_repo/addons.xml.md5</checksum>
-        <datadir zip="true">http://www.malchustv.pinoykodigroup.site/_repo/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Install all of MALCHUS TV ADD ONS</summary>
-        <description>Download and Install Addons From MALCHUS TV..For Official Support Visit malchustvbuilds on facebook TWITTER@malchus tv</description>
-        <platform>all</platform>
-    </extension>
 </addon><addon id="plugin.video.crunchyroller" name="Crunchyroll" version="3.0.1" provider-name="LouKingGood">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
