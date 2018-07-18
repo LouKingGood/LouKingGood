@@ -144,6 +144,22 @@ use it instead of this addon. All rights on content are reserved by Rakuten.</di
         <news>v3.0.0 (2018.02.xx)[CR]- Addon rewriten from scratch</news>
         <license>GNU Affero General Public License, v3</license>
     </extension>
+</addon><addon id="plugin.video.teampinoy" name="[B][COLOR dodgerblue]TeamPinoy[/COLOR][COLOR red]•[/COLOR][COLOR yellow]Pilipinas[/COLOR][/B]" version="0.0.4" provider-name="Arcade">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.10.12"/>
+	<import addon="script.module.addon.common" version="2.0.0" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">TeamPinoy Pilipinas for all my Pinoy OFW</summary>
+	<description lang="en">A free Pinoy Movies and Teleserye for all Filipino OFW</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+	<platform>all</platform>
+  </extension>
 </addon><addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.34" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
