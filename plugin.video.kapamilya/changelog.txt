@@ -1,3 +1,22 @@
+0.0.79
+    Added streaming proxy settings
+    Added Tfc.tv My List in home menu (read-only: retrieved from your list on Tfc.tv website)
+    Improve login process
+    Fixed playback issue due to blocked headers
+    Fixed minor bugs
+0.0.78
+    Implement new login process Kapamilya Account Single Sign On
+    Added default background image
+    Fixed wrong URL for checking if logged in
+    Fixed some minor bugs
+0.0.77
+    Fixed home section with HTML text
+    Fixed user subscription and transaction display
+0.0.76
+    Fixed video playback (media/fetch HTTP 404 error with unsecured URL)
+0.0.75
+    Fixed Movies category
+    Added plot info in playing video
 0.0.74
     Implemented latest updates from TFC.tv on media query and response
 0.0.73
