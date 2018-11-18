@@ -9,7 +9,7 @@ import xbmc, xbmcaddon
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 from urlparse import urlparse
 
-AddonName = xbmcaddon.Addon('plugin.video.tfctv').getAddonInfo('name')
+AddonName = xbmcaddon.Addon('plugin.video.kapamilya').getAddonInfo('name')
 setting = xbmcaddon.Addon().getSetting
 
 class ProxyHandler(SimpleHTTPRequestHandler):
